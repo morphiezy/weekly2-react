@@ -19,7 +19,7 @@ const App = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    dispatch(fetchArticle("https://api.jsonbin.io/b/626096edc5284e3115502a6e"));
+    dispatch(fetchArticle("https://api.jsonbin.io/b/626161e1c5284e311550a7a8"));
   },[]);
 
   return (
